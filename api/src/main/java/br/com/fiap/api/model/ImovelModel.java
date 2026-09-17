@@ -16,6 +16,13 @@ public class ImovelModel {
         this.valor = valor;
     }
 
+    public ImovelModel(int id, String descricao, double dimensao, double valor) {
+        this.id = id;
+        this.descricao = descricao;
+        this.dimensao = dimensao;
+        this.valor = valor;
+    }
+
     public String getDescricao() {
         return descricao;
     }
